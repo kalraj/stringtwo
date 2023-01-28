@@ -41,7 +41,18 @@ str ='hello# world #this is my string programme'
 # so=pro.splitlines()
 # print(so)
 
-t='hello world this is string'
+t='hel\tlo world this is string'
 print(t)
 p=t[-1:10:1]
 print(p)
+print(t.encode(encoding='ascii',errors='replace'))
+x=t.center(40,'#')
+print(x)
+y=t.expandtabs(2)
+print(y)
+f=t.find('l')
+print(f)
+find_d=t.find('z')
+print(find_d)
+find_d=t.index('d')
+print(find_d)
