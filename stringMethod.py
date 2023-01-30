@@ -14,3 +14,24 @@ print(p)
 str_count='this si new paragraph of my file'
 c=str_count.count('a')
 print(c)
+#title() this method is used to make every word of string capital
+str_title='this is my title method '
+t=str_title.title()
+print(t)
+ #pattern in python
+for i in range(5):
+    for j  in range(i):
+        print(j+1,end=' ')
+    print()
+for i in range(5):
+    for j  in range(i):
+        print(end=' ')
+    print()
+str='hello world'
+print(str)
+str1="hello world"
+print(str1)
+str2="""hello world"""
+print(str2)
+str3='''hello world'''
+print(str3)
